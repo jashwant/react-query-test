@@ -38,7 +38,7 @@ export const fetchPost = async ({ queryKey: [_, id] }) => {
   return json;
 };
 
-export const usePost = (): UseQueryResult<unknown, unknonw> => {
+export const usePost = (): UseQueryResult<unknown, unknown> => {
   const router = useRouter();
   const queryClient = useQueryClient();
 
